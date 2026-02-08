@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"],
+  "paths": {
+    "@/shared/*": ["src/shared/*"],
+    "@modules/*": ["src/modules/*"],
+    "@constants/*": ["src/constants/*"],
+    "@infra/*": ["src/infra/*"],
+  }
+}
