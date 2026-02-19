@@ -12,8 +12,8 @@
     "allowSyntheticDefaultImports": true,
     "target": "ES2023",
     "sourceMap": true,
+    "baseUrl": "./",
     "outDir": "./dist",
-    "baseUrl": ".",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
@@ -22,10 +22,10 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@modules/*": ["src/modules/*"],
-      "@/shared/*": ["src/shared/*"],
-      "@constants/*": ["src/constants/*"],
       "@infra/*": ["src/infra/*"],
+      "@modules/*": ["src/modules/*"],
+      "@common/*": ["src/common/*"],
+      "@enums/*": ["src/common/enums/*"]
     }
   }
 }
