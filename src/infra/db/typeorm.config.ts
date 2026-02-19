@@ -1,5 +1,5 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import dataBaseConfig from '../config/configurations/db.config';
+import dataBaseConfig from '../../config/configurations/db.config';
 
 const db = dataBaseConfig();
 
